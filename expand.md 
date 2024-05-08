@@ -1,0 +1,23 @@
+Why is it important to put thought into your IDs & Classes when it comes to technology intersections? (e.g. how HTML, CSS, and JS intersect)  
+Answer:      
+- IDs and classes facilitate maintainability, scalability, and easier manipulation with CSS and JavaScript.  
+  
+What are Data attributes? Why might they be useful? How do you access them? What are the implications of using Data attributes when it comes to things like microdata?  
+Answer:    
+- Data attributes allow storage and retrieval of custom data directly from HTML elements.  
+  
+What is a DOM fragment? Why are they powerful?  
+Answer:      
+- A DOM fragment is a minimal, memory-efficient document object that can be used to optimize operations on the DOM by avoiding unnecessary reflows and repaints.  
+  
+What is the point of a “Virtual DOM”? What do you gain? What do you lose?  
+Answer:    
+The Virtual DOM is a programming concept used in frameworks to improve UI performance.    
+  
+In JavaScript, usually you can reference every attribute of an element with a dot selector followed by the attribute name, except for the class attribute, which is className. Why is this so?  
+Anser:    
+JavaScript uses `className` instead of `class` to access the class attribute of HTML elements because `class` is a reserved keyword in JavaScript.    
+    
+What is the difference between using addEventListener() and something like onClick() ? What are the advantages / disadvantages of both?  
+Anser:      
+`addEventListener()` allows for more flexible event handling in JavaScript by enabling multiple handlers per event and detailed configuration, whereas `onClick` provides a simpler, but less versatile, inline event handling method.  
